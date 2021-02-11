@@ -1,0 +1,137 @@
+body{
+  margin: 0;
+  padding: 0;
+  background:none;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color:rgba(255, 255, 255, 0.822);
+}
+.Registerbox {
+  width: 450px;
+  height: 420px;
+  background-color: rgb(255, 255, 255);
+  top:40%;
+  left: 80%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  border-radius: 5mm;
+}
+h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.Registerbox p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.Registerbox input{
+ 
+  margin-bottom: 20px;
+}
+
+.Registerbox input[type="text"], input[type="password"] ,input[type="number"]
+{
+  width: 100%;
+  border:none;
+    border-bottom: 2px solid rgb(4, 28, 241);
+    background:transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    border-radius: 3mm;
+    padding: 3px;
+}
+.Registerbox input[type="submit"],input[type="reset"]
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  background:blueviolet;
+  color: rgb(255, 254, 254);
+  font-size: 20px;
+  border-radius: 155px;
+  margin-left: 40px;
+}
+.Registerbox input[type="submit"],input[type="reset"]:hover
+{
+  cursor: pointer;
+}
+.Registerbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: skyblue;
+    color: #000;
+    font-size: 20px;
+    border-radius: 155px;
+}
+.Registerbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.Registerbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    line-space:13px;
+    color:black;
+}
+
+.Registerbox a:hover
+{
+    color: #ffc107;
+}
+.Registerbox input[type="submit"],input[type="reset"]:hover
+{
+  cursor: pointer;
+}
+.Registerbox a{
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  line-space:13px;
+  color:black;
+}
+.Registerbox a:hover
+{
+  color: #ffc107;
+}
+nav{
+  display: flex;
+  height: 60px;
+  width: 100%;
+  background: -webkit-linear-gradient(bottom,#a445b2,#05C8E1);
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+  color: #fff;
+  border-radius: 1mm;
+}
+nav a{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+nav .tie{
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  padding-left: 20px;
+}
+
+
+
